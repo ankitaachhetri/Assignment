@@ -61,7 +61,7 @@ const cartItems=[
     {id: 1, product:"hawkins", price:30, quantity:1},
     {id: 1, product:"baltra", price:10, quantity:3},
     ]
-    Array.forEach((item)=>{
+   cartItems.forEach((item)=>{
        totalPrice=totalPrice+ item.price *item.quantity
     
     })
