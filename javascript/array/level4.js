@@ -22,8 +22,6 @@ console.log(output)
     // // yedi item.length === 4, total ma add 1
 // })
 //console.log(output)
-
-const arr = ['ram','shyam','hari']
 let total=0
 arr.forEach((item,id)=>{
 if(item.length===4){
