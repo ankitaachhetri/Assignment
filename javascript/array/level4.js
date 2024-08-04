@@ -45,7 +45,7 @@ let strCount = 0
 arr.forEach((item,id)=>{
     strCount=item.length + strCount
 })
-console.log(str.count)
+console.log(strCount)
 
 // Q4 using map, get the last characters
 const lastOutput = arr.map((item)=>{
@@ -59,8 +59,11 @@ const cartItems=[
     {id: 1, product:"hawkins", price:30, quantity:1},
     {id: 1, product:"baltra", price:10, quantity:3},
     ]
+    let totalPrice=0
    cartItems.forEach((item)=>{
        totalPrice=totalPrice+ item.price *item.quantity
     
     })
     console.log(totalPrice)
+    
+    
