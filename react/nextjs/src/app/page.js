@@ -26,7 +26,7 @@ const Login = ()=> {
     <Link href="/forget-password">Forget Password</Link>
     </CardBody>
     </Card>
-    <Register/>
+    
     </div>
 
   )
