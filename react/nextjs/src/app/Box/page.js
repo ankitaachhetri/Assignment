@@ -18,8 +18,6 @@ const Box = () => {
   return (
     <div>
 
-        <div style={{backgroundColor:backgroundColor, width:width, margin:margin, height:height, borderRadius: borderRadius}}></div>
-
         <div
         onClick={()=> dispatch(changeShape())}
         style={{
@@ -27,7 +25,6 @@ const Box = () => {
           marginLeft: marginLeft,
           backgroundColor:backgroundColor, width:width, margin:margin, height:height, borderRadius:  borderRadius}}>
         </div>
-        
         <input placeholder="Property:value"/>
         <button onClick={()=> dispatch(changeToCircle())}>Change to cirlce</button>
         <input onChange={handleChange} placeholder="Property:value"/>
